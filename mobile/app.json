@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Be The Hero",
-    "slug": "bethehero",
+    "slug": "BeTheHero",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -17,6 +17,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#e02041"
     },
+
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,7 +25,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.indiedevs.bethehero",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.indiedevs.bethehero",
+      "versionCode": 1
     }
+
   }
 }

@@ -1,6 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,7 +18,10 @@
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
+    "heroku": "^7.39.1",
+    "heroku-cli": "^7.0.9",
     "knex": "^0.20.13",
+    "sqlite": "^3.0.6",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
